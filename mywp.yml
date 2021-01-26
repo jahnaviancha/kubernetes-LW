@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name:  "mywp1"
+
+spec:
+  containers:
+  - name: "mywp1"
+    image: "wordpress:5.1.1-php7.3-apache"
